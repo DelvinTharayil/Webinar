@@ -1,0 +1,23 @@
+<template>
+  <v-app>
+    <v-main>
+      <ToolBar/>
+    </v-main>
+  </v-app>
+</template>
+
+<script>
+import ToolBar from './components/ToolBar';
+
+export default {
+  name: 'App',
+
+  components: {
+    ToolBar,
+  },
+
+  data: () => ({
+    //
+  }),
+};
+</script>
