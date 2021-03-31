@@ -1,19 +1,19 @@
 <template>
   <v-app>
     <v-main>
-      <ToolBar/>
+      <WebinarHome/>
     </v-main>
   </v-app>
 </template>
 
 <script>
-import ToolBar from './components/ToolBar';
+import WebinarHome from './components/WebinarHome';
 
 export default {
   name: 'App',
 
   components: {
-    ToolBar,
+    WebinarHome,
   },
 
   data: () => ({

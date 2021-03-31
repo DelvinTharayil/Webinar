@@ -1,7 +1,9 @@
 import Vue from 'vue'
 import App from './App.vue'
 import vuetify from './plugins/vuetify';
+import LazyYoutube from "vue-lazytube";
 
+Vue.component("LazyYoutube", LazyYoutube);
 Vue.config.productionTip = false
 
 new Vue({
